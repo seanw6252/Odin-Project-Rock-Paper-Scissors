@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choices {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.results {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    margin-left: 25px;
+    margin-right: 25px;
+}
